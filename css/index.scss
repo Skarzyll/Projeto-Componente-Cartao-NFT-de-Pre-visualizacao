@@ -3,5 +3,14 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
+$bodycolor1: #0D192B 47.92%;
+$bodycolor2: #14253D 100%;
+
+body {
+    max-width: 1440px;
+    max-height: 1024px;
+    background: linear-gradient(180deg, $bodycolor1, $bodycolor2);
+}

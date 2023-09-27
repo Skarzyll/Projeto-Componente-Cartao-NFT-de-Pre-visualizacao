@@ -1,2 +1,11 @@
-@charset 'UTF-8';
-@import url(index.scss);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1440px;
+  max-height: 1024px;
+  background: linear-gradient(180deg, #0D192B 47.92%, #14253D 100%);
+}/*# sourceMappingURL=index.css.map */
