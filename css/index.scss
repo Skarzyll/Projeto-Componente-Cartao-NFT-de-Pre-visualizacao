@@ -1,5 +1,6 @@
 @charset 'UTF-8';
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
 
 * {
     margin: 0;
@@ -38,27 +39,45 @@ main {
         border-radius: 10px;
     }
 
-    h3.phover {
+    a.phover {
         color: white;
         font-size: 20px;
-        font-weight: 700;
+        font-weight: 600;
     }
 
     article {
         display: flex;
         justify-content: space-between;
+        text-align: center;
 
         img {
-            width: 11px;
-            height: 18px;
+            width: 14.118px;
+            height: 14.903px;
         }
 
-        p.phover {
+        img#clock {
+            width: 14.118px;
+            height: 14.903px;
+        }
+
+        p#th {
             color: $hovercolor;
         }
     }
 
-    .hover:hover {
+    strong.phover {
+        color: white;
+    }
+
+    strong {
+        font-weight: 600;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+
+    .phover:hover {
         color: $hovercolor;
     }
 }

@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
 * {
   margin: 0;
   padding: 0;
@@ -30,22 +31,36 @@ main img {
   height: 332px;
   border-radius: 10px;
 }
-main h3.phover {
+main a.phover {
   color: white;
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 600;
 }
 main article {
   display: flex;
   justify-content: space-between;
+  text-align: center;
 }
 main article img {
-  width: 11px;
-  height: 18px;
+  width: 14.118px;
+  height: 14.903px;
 }
-main article p.phover {
+main article img#clock {
+  width: 14.118px;
+  height: 14.903px;
+}
+main article p#th {
   color: #00FFF6;
 }
-main .hover:hover {
+main strong.phover {
+  color: white;
+}
+main strong {
+  font-weight: 600;
+}
+main a {
+  text-decoration: none;
+}
+main .phover:hover {
   color: #00FFF6;
 }/*# sourceMappingURL=index.css.map */
