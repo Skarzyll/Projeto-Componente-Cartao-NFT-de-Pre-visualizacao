@@ -21,8 +21,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 1440px;
-    max-height: 1024px;
+    width: 100vw;
+    height: 100vh;
     background: linear-gradient(180deg, $bodycolor1, $bodycolor2);
 }
 
@@ -72,8 +72,17 @@ main {
     strong {
         font-weight: 600;
     }
+
+    img#avatar {
+        border-radius: 50%;
+        width: 47px;
+        height: 46px;
+        border: 1px solid #FFF;
+    }
     
     a {
+        align-items: center;
+        text-align: center;
         text-decoration: none;
     }
 
