@@ -31,12 +31,21 @@ main {
     max-height: 666px;
     background-color: $maincolor;
     border-radius: 18px;
+    box-shadow: 0px 30px 40px rgba(0, 0, 0, 0.400);
     padding: 28px;
 
-    img {
+    div {
+        background: black url(../images/image-equilibrium.jpg) center center no-repeat;
+        background-size: cover;
         width: 332px;
         height: 332px;
         border-radius: 10px;
+    }
+
+    div:active {
+        background: black url(../icons/icon-view.svg) center center no-repeat;
+        background-size: 15%;
+        background-color: $hovercolor opacity($color: #00fff77e);
     }
 
     a.phover {
@@ -65,11 +74,15 @@ main {
         }
     }
 
-    strong.phover {
-        color: white;
+    span {
+        display: flex;
+        margin-top: 3px;
+        justify-content: flex-start;
+        align-items: center;
     }
 
-    strong {
+    strong.phover {
+        color: white;
         font-weight: 600;
     }
 

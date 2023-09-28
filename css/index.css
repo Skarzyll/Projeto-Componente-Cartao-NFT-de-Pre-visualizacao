@@ -24,12 +24,20 @@ main {
   max-height: 666px;
   background-color: #14253D;
   border-radius: 18px;
+  box-shadow: 0px 30px 40px rgba(0, 0, 0, 0.4);
   padding: 28px;
 }
-main img {
+main div {
+  background: black url(../images/image-equilibrium.jpg) center center no-repeat;
+  background-size: cover;
   width: 332px;
   height: 332px;
   border-radius: 10px;
+}
+main div:active {
+  background: black url(../icons/icon-view.svg) center center no-repeat;
+  background-size: 15%;
+  background-color: #00FFF6 0.4941176471;
 }
 main a.phover {
   color: white;
@@ -52,10 +60,14 @@ main article img#clock {
 main article p#th {
   color: #00FFF6;
 }
+main span {
+  display: flex;
+  margin-top: 3px;
+  justify-content: flex-start;
+  align-items: center;
+}
 main strong.phover {
   color: white;
-}
-main strong {
   font-weight: 600;
 }
 main img#avatar {
