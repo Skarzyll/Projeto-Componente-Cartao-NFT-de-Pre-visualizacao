@@ -50,20 +50,31 @@ main {
         width: 332px;
         height: 332px;
         border-radius: 10px;
-        
-        img {
-            display: none;
+        justify-content: center;
+        align-items: center;
+
+        span {
+            display: flex;
+            width: 100%;
+            height: 100%;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px;
+
+            img {
+                display: none;
+                width: 50px;
+                height: 50px;
+            }
         }
 
-        div:hover {
-            background-color: #00FFF6;
+        span:hover {
+            background-color: #00fff781;
+            
+            img {
+                display: block;
+            }
         }
-
-        div:hover img {
-            display: block;
-            background-color: #00FFF6;
-        }
-
     }
 
     a.phover {

@@ -41,16 +41,27 @@ main div {
   width: 332px;
   height: 332px;
   border-radius: 10px;
+  justify-content: center;
+  align-items: center;
 }
-main div img {
+main div span {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+main div span img {
   display: none;
+  width: 50px;
+  height: 50px;
 }
-main div div:hover {
-  background-color: #00FFF6;
+main div span:hover {
+  background-color: rgba(0, 255, 247, 0.5058823529);
 }
-main div div:hover img {
+main div span:hover img {
   display: block;
-  background-color: #00FFF6;
 }
 main a.phover {
   color: white;
