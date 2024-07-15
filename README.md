@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](design/desktop-preview.jpg)
+![](src/design/desktop-preview.jpg)
 
 ### Links
 
@@ -39,7 +39,7 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- Scss
+- Tailwindcss
 
 ## Author
 

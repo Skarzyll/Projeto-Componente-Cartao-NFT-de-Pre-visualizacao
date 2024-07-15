@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+
+
+main div#img {
+  background: black url(../images/image-equilibrium.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+main div span:hover img {
+  display: block;
+}
+
+main article img {
+  width: 14.118px;
+  height: 14.903px;
+}
+
+main article img#clock {
+  width: 14.118px;
+  height: 14.903px;
+}
